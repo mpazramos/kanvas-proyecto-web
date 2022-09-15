@@ -1,0 +1,62 @@
+/* Fuente para todo el sitio Kanvas */
+html {
+    font-family: 'Noto Serif HK', serif;
+}
+
+/* Estilos para el header de Kanvas*/
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #03045E;
+    margin-bottom: 10px;
+}
+
+header nav {
+    float: right;
+    line-height: 50px;
+}
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover {
+    background-color: #0077B6;
+    border-radius: none;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 50px;
+    line-height: 80px;
+    float: left;
+    margin-top: 6px;
+}
+
+.img-nav {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header nav {
+    line-height: 100px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
